@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B507440127335701003F7129 /* BarGraphGesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507440027335701003F7129 /* BarGraphGesturesApp.swift */; };
+		B507440327335701003F7129 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507440227335701003F7129 /* ContentView.swift */; };
+		B507440527335704003F7129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B507440427335704003F7129 /* Assets.xcassets */; };
+		B507440827335704003F7129 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B507440727335704003F7129 /* Preview Assets.xcassets */; };
+		B507441227335704003F7129 /* BarGraphGesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507441127335704003F7129 /* BarGraphGesturesTests.swift */; };
+		B507441C27335704003F7129 /* BarGraphGesturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507441B27335704003F7129 /* BarGraphGesturesUITests.swift */; };
+		B507441E27335704003F7129 /* BarGraphGesturesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507441D27335704003F7129 /* BarGraphGesturesUITestsLaunchTests.swift */; };
+		B507442D27335AC2003F7129 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507442C27335AC2003F7129 /* Download.swift */; };
+		B507442F27335E2A003F7129 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507442E27335E2A003F7129 /* Home.swift */; };
+		B54168282734A3A900DB7FB8 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54168272734A3A900DB7FB8 /* BarGraph.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B507440E27335704003F7129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50743F527335701003F7129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50743FC27335701003F7129;
+			remoteInfo = BarGraphGestures;
+		};
+		B507441827335704003F7129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50743F527335701003F7129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50743FC27335701003F7129;
+			remoteInfo = BarGraphGestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50743FD27335701003F7129 /* BarGraphGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarGraphGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B507440027335701003F7129 /* BarGraphGesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphGesturesApp.swift; sourceTree = "<group>"; };
+		B507440227335701003F7129 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B507440427335704003F7129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B507440727335704003F7129 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B507440D27335704003F7129 /* BarGraphGesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGraphGesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B507441127335704003F7129 /* BarGraphGesturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphGesturesTests.swift; sourceTree = "<group>"; };
+		B507441727335704003F7129 /* BarGraphGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGraphGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B507441B27335704003F7129 /* BarGraphGesturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphGesturesUITests.swift; sourceTree = "<group>"; };
+		B507441D27335704003F7129 /* BarGraphGesturesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphGesturesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B507442C27335AC2003F7129 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		B507442E27335E2A003F7129 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B54168272734A3A900DB7FB8 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50743FA27335701003F7129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B507440A27335704003F7129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B507441427335704003F7129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50743F427335701003F7129 = {
+			isa = PBXGroup;
+			children = (
+				B50743FF27335701003F7129 /* BarGraphGestures */,
+				B507441027335704003F7129 /* BarGraphGesturesTests */,
+				B507441A27335704003F7129 /* BarGraphGesturesUITests */,
+				B50743FE27335701003F7129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50743FE27335701003F7129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50743FD27335701003F7129 /* BarGraphGestures.app */,
+				B507440D27335704003F7129 /* BarGraphGesturesTests.xctest */,
+				B507441727335704003F7129 /* BarGraphGesturesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50743FF27335701003F7129 /* BarGraphGestures */ = {
+			isa = PBXGroup;
+			children = (
+				B507442B27335A97003F7129 /* Model */,
+				B507442A27335A90003F7129 /* View */,
+				B507440027335701003F7129 /* BarGraphGesturesApp.swift */,
+				B507440227335701003F7129 /* ContentView.swift */,
+				B507440427335704003F7129 /* Assets.xcassets */,
+				B507440627335704003F7129 /* Preview Content */,
+			);
+			path = BarGraphGestures;
+			sourceTree = "<group>";
+		};
+		B507440627335704003F7129 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B507440727335704003F7129 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B507441027335704003F7129 /* BarGraphGesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B507441127335704003F7129 /* BarGraphGesturesTests.swift */,
+			);
+			path = BarGraphGesturesTests;
+			sourceTree = "<group>";
+		};
+		B507441A27335704003F7129 /* BarGraphGesturesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B507441B27335704003F7129 /* BarGraphGesturesUITests.swift */,
+				B507441D27335704003F7129 /* BarGraphGesturesUITestsLaunchTests.swift */,
+			);
+			path = BarGraphGesturesUITests;
+			sourceTree = "<group>";
+		};
+		B507442A27335A90003F7129 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B507442E27335E2A003F7129 /* Home.swift */,
+				B54168272734A3A900DB7FB8 /* BarGraph.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B507442B27335A97003F7129 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B507442C27335AC2003F7129 /* Download.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50743FC27335701003F7129 /* BarGraphGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B507442127335704003F7129 /* Build configuration list for PBXNativeTarget "BarGraphGestures" */;
+			buildPhases = (
+				B50743F927335701003F7129 /* Sources */,
+				B50743FA27335701003F7129 /* Frameworks */,
+				B50743FB27335701003F7129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarGraphGestures;
+			productName = BarGraphGestures;
+			productReference = B50743FD27335701003F7129 /* BarGraphGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B507440C27335704003F7129 /* BarGraphGesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B507442427335704003F7129 /* Build configuration list for PBXNativeTarget "BarGraphGesturesTests" */;
+			buildPhases = (
+				B507440927335704003F7129 /* Sources */,
+				B507440A27335704003F7129 /* Frameworks */,
+				B507440B27335704003F7129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B507440F27335704003F7129 /* PBXTargetDependency */,
+			);
+			name = BarGraphGesturesTests;
+			productName = BarGraphGesturesTests;
+			productReference = B507440D27335704003F7129 /* BarGraphGesturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B507441627335704003F7129 /* BarGraphGesturesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B507442727335704003F7129 /* Build configuration list for PBXNativeTarget "BarGraphGesturesUITests" */;
+			buildPhases = (
+				B507441327335704003F7129 /* Sources */,
+				B507441427335704003F7129 /* Frameworks */,
+				B507441527335704003F7129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B507441927335704003F7129 /* PBXTargetDependency */,
+			);
+			name = BarGraphGesturesUITests;
+			productName = BarGraphGesturesUITests;
+			productReference = B507441727335704003F7129 /* BarGraphGesturesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50743F527335701003F7129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B50743FC27335701003F7129 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B507440C27335704003F7129 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B50743FC27335701003F7129;
+					};
+					B507441627335704003F7129 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B50743FC27335701003F7129;
+					};
+				};
+			};
+			buildConfigurationList = B50743F827335701003F7129 /* Build configuration list for PBXProject "BarGraphGestures" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50743F427335701003F7129;
+			productRefGroup = B50743FE27335701003F7129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50743FC27335701003F7129 /* BarGraphGestures */,
+				B507440C27335704003F7129 /* BarGraphGesturesTests */,
+				B507441627335704003F7129 /* BarGraphGesturesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50743FB27335701003F7129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B507440827335704003F7129 /* Preview Assets.xcassets in Resources */,
+				B507440527335704003F7129 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B507440B27335704003F7129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B507441527335704003F7129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50743F927335701003F7129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54168282734A3A900DB7FB8 /* BarGraph.swift in Sources */,
+				B507442D27335AC2003F7129 /* Download.swift in Sources */,
+				B507440327335701003F7129 /* ContentView.swift in Sources */,
+				B507442F27335E2A003F7129 /* Home.swift in Sources */,
+				B507440127335701003F7129 /* BarGraphGesturesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B507440927335704003F7129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B507441227335704003F7129 /* BarGraphGesturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B507441327335704003F7129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B507441C27335704003F7129 /* BarGraphGesturesUITests.swift in Sources */,
+				B507441E27335704003F7129 /* BarGraphGesturesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B507440F27335704003F7129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50743FC27335701003F7129 /* BarGraphGestures */;
+			targetProxy = B507440E27335704003F7129 /* PBXContainerItemProxy */;
+		};
+		B507441927335704003F7129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50743FC27335701003F7129 /* BarGraphGestures */;
+			targetProxy = B507441827335704003F7129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B507441F27335704003F7129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B507442027335704003F7129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B507442227335704003F7129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarGraphGestures/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi-SIlva.BarGraphGestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B507442327335704003F7129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarGraphGestures/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi-SIlva.BarGraphGestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B507442527335704003F7129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi-SIlva.BarGraphGesturesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarGraphGestures.app/BarGraphGestures";
+			};
+			name = Debug;
+		};
+		B507442627335704003F7129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi-SIlva.BarGraphGesturesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarGraphGestures.app/BarGraphGestures";
+			};
+			name = Release;
+		};
+		B507442827335704003F7129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi-SIlva.BarGraphGesturesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarGraphGestures;
+			};
+			name = Debug;
+		};
+		B507442927335704003F7129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Levi-SIlva.BarGraphGesturesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarGraphGestures;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50743F827335701003F7129 /* Build configuration list for PBXProject "BarGraphGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B507441F27335704003F7129 /* Debug */,
+				B507442027335704003F7129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B507442127335704003F7129 /* Build configuration list for PBXNativeTarget "BarGraphGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B507442227335704003F7129 /* Debug */,
+				B507442327335704003F7129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B507442427335704003F7129 /* Build configuration list for PBXNativeTarget "BarGraphGesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B507442527335704003F7129 /* Debug */,
+				B507442627335704003F7129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B507442727335704003F7129 /* Build configuration list for PBXNativeTarget "BarGraphGesturesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B507442827335704003F7129 /* Debug */,
+				B507442927335704003F7129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50743F527335701003F7129 /* Project object */;
+}
